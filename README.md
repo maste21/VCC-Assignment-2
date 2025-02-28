@@ -24,4 +24,4 @@ Download the installer from: https://cloud.google.com/sdk/docs/install
 
 Run the script
 
-    node create-vm.js
+    node vm-creation.js
