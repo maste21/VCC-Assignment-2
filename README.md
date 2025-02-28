@@ -1,26 +1,27 @@
-VCC-Assignment-2
+# VCC-Assignment-2
+
 Commands:
 
 Initialize a project
 
-npm init -y
+    npm init -y
 
 Install the Google Cloud Compute and IAM libraries
 
-npm install @google-cloud/compute @google-cloud/iam
+    npm install @google-cloud/compute @google-cloud/iam
 
 
 Set Google Cloud project ID as an environment variable
 
-export GOOGLE_CLOUD_PROJECT=vcc-assignment-452211
+    export GOOGLE_CLOUD_PROJECT=vcc-assignment-452211
 
 Instll google cloud cli and Authenticate
 
 Download the installer from: https://cloud.google.com/sdk/docs/install
 
-gcloud init
-gcloud auth application-default login
+    gcloud init
+    gcloud auth application-default login
 
 Run the script
 
-node create-vm.js
+    node create-vm.js
