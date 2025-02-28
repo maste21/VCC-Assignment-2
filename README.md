@@ -15,7 +15,7 @@ Set Google Cloud project ID as an environment variable
 
     export GOOGLE_CLOUD_PROJECT=vcc-assignment-452211
 
-Instll google cloud cli and Authenticate
+Install google cloud cli and Authenticate
 
 Download the installer from: https://cloud.google.com/sdk/docs/install
 
