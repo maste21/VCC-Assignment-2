@@ -8,14 +8,14 @@ npm init -y
 npm install @google-cloud/compute @google-cloud/iam
 
 
-# 4. Set  Google Cloud project ID as an environment variable
+# 3. Set  Google Cloud project ID as an environment variable
 export GOOGLE_CLOUD_PROJECT=vcc-assignment-452211
 
-# 5. Instll google cloud cli and Authenticate
+# 4. Instll google cloud cli and Authenticate
 Download the installer from: https://cloud.google.com/sdk/docs/install
 
 gcloud init
 gcloud auth application-default login
 
-# 6. Run the script
+# 5. Run the script
 node create-vm.js
