@@ -12,7 +12,7 @@ async function createScalableVM() {
   const machineType = 'e2-micro';
   const targetCpu = 70;
   const minInstances = 1;
-  const maxInstances = 3;
+  const maxInstances = 4;
   const targetTag = 'http-server';
   const serviceAccountEmail = '147388271762-compute@developer.gserviceaccount.com';
 
@@ -60,7 +60,7 @@ async function createScalableVM() {
 
   // 3. Create Firewall Rule (Allow HTTP/HTTPS)
   const firewallRuleConfig = {
-    name: 'allow-http-https',
+    name: 'allow-web-traffic',
     network: 'global/networks/default',
     allow: {
       TCP: ['80', '443'],
